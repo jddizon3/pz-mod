@@ -1,0 +1,34 @@
+module Base {
+    model 24-4runnerBase {
+        mesh = vehicles/Vehicles_24-4runner_Body,
+        shader = vehicle,
+        invertX = FALSE,
+        scale = 1,
+    }
+    model 24-4runnerFrontWheelLeft {
+        mesh = vehicles/Vehicles_24-4runner_Wheel,
+        texture = " "
+    }
+    model 24-4runnerFrontWheelRight {
+        mesh = vehicles/Vehicles_24-4runner_Wheel,
+        texture = " "  
+    }
+    model 24-4runnerBackWheelLeft {
+        mesh = vehicles/Vehicles_24-4runner_Wheel,
+        texture = " "
+    }
+    model 24-4runnerBackWheelRight {
+        mesh = vehicles/Vehicles_24-4runner_Wheel,
+        texture = " "
+    }
+    model {
+        file = 24-4runnerBase,
+        scale = 1,
+        offset = 0.0000 -0.2114, -0.0244, 
+    }
+}
+
+// Color variation textures
+skin {
+
+}
